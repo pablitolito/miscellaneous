@@ -1,7 +1,7 @@
 ### Miscellaneous
 Miscellaneous data processing applications
 
-#Inerpolate_list.py
+# Inerpolate_list.py
 
 Based on a list of real numbers where consecutive numbers are equal to or greater than the previous one,
 it generates a list where consecutive numbers are always greater than the previous one.
