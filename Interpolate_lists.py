@@ -40,13 +40,12 @@ def main():
     b = data[1][0] #first data
     for dato in data_i: #Loop through the data
         i += 1 
-        if dato[0] != b: #If the value changes, save the distance(s)
-            if k == 1:      #Save a unique distance value
+        if dato[0] != b: #If the value changes, save the value(s)
+            if k == 1:      #Save a unique value
                 list_out.append(dato[0])
                 b = dato[0]
                 k = 1
-            else: 	#Interpolate data between a minimum value (old distance, b) and 
-    			#a maximum (new distance, dato[0]), with k+1 elements.
+            else:
                 new_dist = np.linspace(float(b), float(dato[0]), k+1) #Interpolated data in a list
                 list_out.extend(new_dist[1:])
                 k=1
