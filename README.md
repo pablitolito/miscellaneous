@@ -8,7 +8,7 @@ it generates a list where consecutive numbers are always greater than the previo
 When it finds a group of equal numbers, it modifies their values, generating regular spacing between 
 that value and the next greater number.
 
-### Delete_Outliers.ipynb
+### Remove_Outliers.ipynb
 
 Starting from a series of data $(x, y)$, perform the following process to clean outlier data:
 
